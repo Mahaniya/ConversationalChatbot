@@ -34,7 +34,21 @@ app.post('/postintialinput',function(req,res){
         res.send(dataobj.contactdetails)
     }
      });
- 
-app.listen(1000,function(){
+function normalizePort(val)
+{
+    var port = parseInt(val,10);
+    if(isNaN(port))
+    {
+        return val
+    }
+    if(port >= 0)
+    {
+return port
+    }
+    return false
+}
+
+ var port = normalizePort(process.env.PORT || '1000')
+app.listen(port,function(){
      console.log('server started on port 1000')
  });
