@@ -16,6 +16,11 @@ app.use(bodyParser.json())
     //res.send([{id:1,name:'admision'},{id:2,name:'Acadamics'}]);
     res.send(dataobj.mainbuttons);
 });
+app.get('',function(req,res){
+    //res.send([{id:1,name:'admision'},{id:2,name:'Acadamics'}]);
+    res.send("hello");
+});
+
 app.post('/postintialinput',function(req,res){
     console.log(req.body);
     console.log(req.body.id);
