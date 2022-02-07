@@ -1,0 +1,30 @@
+const dataobject = {};
+    dataobject.mainbuttons=[{id:1,name:'Admision'},
+    {id:2,name:'Acadamics'},{id:3,name:'Rules and Regulations'},
+    {id:4,name:'Contact details',answer:'SASTRA DEEMED UNIVERSITY<br>Tirumalaisamudram<br>Thanjavur - 613401<br>Tamilnadu, India <br>+91 4362 264101 - 108<br>+91 4362 350001 (20 lines)<br>+91 4362 264120<br>admissionssastra.edu'},
+    {id:5,name:'Mission and Vision',answer:'https://www.sastra.edu/about-us/mission-vision.html'}]
+    
+    dataobject.admission=[
+    {id:1,question:'What full-time programmes does SASTRA offer?',answer:'B.Tech., 5-Year integrated M.Tech., M.Tech., M.Sc. (2-year programmes in Biotechnology, Chemistry, Data Sciences, Molecular Genetics, Bio-Informatics & Physics), M.C.A., M.B.A., B.Com. (CA), B. Com. (BFSI), B.A./B.Com./B.B.A., LL.B, (Hons.) , B.Sc./B.A., B.Ed. (4-year integrated programmes in English, Mathematics & Physics), M.Sc. (5-year integrated programmes in Biotechnology, Chemistry, Data Sciences & Physics), M. Optom & B. Optom in its Main Campus in Thanjavur.<br> B. Sc., B.Com, B.B.A., B.C.A., M.Sc. (Computer Science, Mathematics, Bio-Chemistry & Microbiology), M.Com. and B. Tech. (CSE & ECE) courses are offered in Srinivasa Ramanujan Centre (off-campus centre of SASTRA recognized by Govt. of India) in Kumbakonam.'},
+    {id:2,question:'What is the eligibility for B. Tech. programmes?',answer:'A pass in the +2 examination with Mathematics & Physics as compulsory subjects of study with either Chemistry / Bio-Technology / Computer Science / Biology and recognized by any State Board / Central Board or any other accepted by SASTRA as equivalent to 10+2 examination, with a minimum +2 aggregate of 60% marks in a single sitting.<br>Students with diploma in Engineering / Technology are eligible for direct admission to the second year of the relevant B.Tech. Programme.<br>The candidate should not have completed 20 years as on 1.7.2021. (21 years for Lateral Entry)'},
+    {id:3,question:'Should I submit separate application for Stream 1 & Stream 2?',answer:'No. Applicants are advised to submit application with results of +2 and JEE (Main) 2021 along with relevant photocopies. JEE (Main) 2021 details is mandatory (if appeared) for those who are applying under Stream 1. The applicant is advised to enter both +2 & JEE (Main) 2021 details in his / her own interest as they can attend both counselling using the same application form.'},
+    {id:4,question:'How are admissions done?',answer:'Pursuant to the cancellation of Class XII exams by CBSE, TN State and many other boards, the Admissions to various B.Tech. and 5-Year Integrated M.Tech. programmes of SASTRA (main Campus & SRC) shall be done in the following way:<br> <b>Stream 1 – JEE-Main Score & Class XII Score</b><br> Admission to 50% of seats shall be based on normalised aggregate Class XII Scores and available JEE Main (2020/2021) scores taken together with 50% weightage each. Seats shall be filled based on the Ranks Secured by student.<br><b>Stream 2 – Class XII Score</b><br> Remaining 50% of seats shall be based on the normalised aggregate Class XII score awarded by the respective boards. Rank list shall be prepared based on this aggregate score and admissions shall be made based on the rank secured.<br>All students shall be considered for both streams by default. If they haven’t written JEE, in Stream 1 there will be no weightage to that part and rank will be based on Class XII scores alone. JEE is not mandatory.<br>The allotment of seats to students completing schooling at Thanjavur & Trichy (30%), Tamilnadu and All India remains unchanged with special provisions for NE States and other special status States/UTs.<br><b>For all PG programmes</b>, admissions will be made on the basis of the scores in the qualifying UG / PG degree programme. GATE qualified candidates will be given preference for Engineering programmes and for MBA, students with good CAT / XAT / AIMAT / CMAT / AIMCAT scores will be given preference.<br><b>For all degree programmes in Law</b>, admissions will be based on the CLAT 2021 Scores and +2 aggregate taken in the ratio of 25% : 75% respectively.<br><b> For all other degree programmes</b> in Sciences, Arts, Commerce, Education, etc., admissions will be based on the qualifying exam marks.<br>Please note that the CLAT-2021 exam is being planned during these turbulent pandemic times. Any changes beyond manageable time shall necessitate collateral changes in admission policy at the Institution’s sole discretion.'},
+    {id:5,question:'Is hostel facility available?',answer:'There are nine hostels for boys and five for girls. First year B. Tech. students will be provided shared accommodation. The charges for food will be at actual based on dividing system and will approximately be around Rs 3,000 per month. You can assume that you will stay for 10 months in a calendar year. Single room, Two-in-one, Three-in-one and Four-in-one (with or w/o bath attached facilities) will be available from second year onwards. The annual rent will vary depending on the room type.'},
+    {id:6,question:'Can a seat be reserved before for admission under the merit category?',answer:'No. Admission will be based only on merit after the rank list is released. Only NRI sponsored students\' can approach the Office of Admissions for more admission information.'},
+    {id:7,question:'Back',answer:''}
+    ]
+
+    dataobject.acadamics=[
+        {id:1,question:'UG',answer:'https://www.sastra.edu/admissions/undergraduate.html'},
+        {id:2,question:'PG',answer:'https://www.sastra.edu/admissions/postgraduate.html'},
+        {id:3,question:'Ph.D',answer:'https://www.sastra.edu/admissions/ph-d.html'},
+        {id:4,question:'Back',answer:''}
+        ]
+
+    dataobject.rulesandregulations=[
+        {id:1,question:'B.Tech./M.Tech. rules and regulations',answer:'E:/Projects/Client/BTechMTechIntegRulesRegulation.pdf'},
+        {id:2,question:'M.Tech./ M.Pharm Programmes',answer:'E:/Projects/Client/M.TechM.PharmR&R 201516onwardsFinal.pdf'},
+        {id:3,question:'Back',answer:''}]
+
+module.exports=dataobject
+
